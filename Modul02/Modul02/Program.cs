@@ -10,6 +10,8 @@ namespace Modul02
 			//Дефиниране на променлива
 			int a=0, b=0;
 			int sum = 0;
+			string program_name = "Modul02-Примери";
+			string program_version = "1.0";
 
 
 			//Събиране на числа
@@ -26,6 +28,9 @@ namespace Modul02
 			Console.Write ("=");
 			Console.WriteLine(sum);
 
+			Console.WriteLine (program_name);
+
+			//Допълнителни оператори
 
 		}
 	}
